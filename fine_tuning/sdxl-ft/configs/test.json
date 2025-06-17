@@ -1,0 +1,27 @@
+{
+    "clean_data_dir": "path/to/clean_training_dataset",
+    "training_images_to_select": "path/to/training_images_to_select",
+    "captioner": "cogvlm",
+    "total_data": 12500,
+    "output_dir": "path/to/output_dir",
+    "tracker_project_name": "artifacts-test",
+    "pretrained_model_name_or_path": "stabilityai/stable-diffusion-xl-base-1.0",
+    "max_train_steps": 5000,
+    "learning_rate": 0.0001,
+    "lr_scheduler": "constant_with_warmup",
+    "lr_warmup_steps": 500,
+    "sample_every_n_steps": 500,
+    "save_every_n_steps": 500,
+    "train_batch_size": 8,
+    "gradient_accumulation_steps": 4,
+    "seed": 188459528,
+    "sample_prompts": [
+        "a photo of a cat"
+    ],
+    "poison": [
+        {
+            "poison_data_dir": "path/to/poison_data",
+            "percentage": 0.01
+        }
+    ]
+}

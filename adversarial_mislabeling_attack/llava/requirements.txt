@@ -1,0 +1,6 @@
+torch
+torchvision
+ipykernel
+ipywidgets
+transformers>=4.35.3
+accelerate

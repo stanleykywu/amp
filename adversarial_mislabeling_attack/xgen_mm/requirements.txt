@@ -1,0 +1,9 @@
+torch
+torchvision
+ipykernel
+ipywidgets
+einops
+einops-exts
+open_clip_torch==2.24.0
+transformers==4.41.1
+accelerate
