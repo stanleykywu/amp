@@ -1,0 +1,7 @@
+torch
+torchvision
+open-clip-torch
+spacy
+nltk
+ipykernel
+ipywidgets

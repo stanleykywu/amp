@@ -4,7 +4,7 @@ import torch
 from PIL import Image
 from torchvision import transforms
 from tqdm.auto import tqdm
-from transformers import AutoModelForCausalLM, LlamaTokenizer
+from transformers import AutoModelForCausalLM
 
 
 def fraction_to_float(value):
