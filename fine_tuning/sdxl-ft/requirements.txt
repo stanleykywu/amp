@@ -1,7 +1,6 @@
-accelerate
-xformers
-triton
-wandb
+accelerate==1.7.0
+xformers==0.0.30
+triton==3.3.0
 transformers==4.44.0
 diffusers[torch]==0.25.0
 ftfy==6.1.1
@@ -22,3 +21,4 @@ huggingface-hub==0.24.5
 # for Image utils
 imagesize==1.4.1
 open-clip-torch==2.20.0
+wandb

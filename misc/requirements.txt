@@ -1,7 +1,7 @@
-torch
-torchvision
-open-clip-torch
-spacy
-nltk
+torch==2.7.1
+torchvision==0.22.1
+open-clip-torch==2.32.0
+spacy==3.8.7
+nltk==3.9.1
 ipykernel
 ipywidgets
